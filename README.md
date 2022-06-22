@@ -19,6 +19,9 @@ Contains reference papers and other info related to Graph Neural Network
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
+- [Graph Neural Networks: Foundation, Frontiers and Applications](https://graph-neural-networks.github.io/#tab-part3)
+  - All the chapters are available (including on Anomaly detection which I am listing below seperately) written some of the leading researchers  in the field
+- **Book Chapter**[Graph Neural Networks in Anomaly Detection](https://graph-neural-networks.github.io/static/file/chapter26.pdf) by Shen Wang, Philip S. Yu
 
 # Courses, Tutorials and Blog posts
 - [CS224W:Machine Learing with Graphs](https://web.stanford.edu/class/cs224w/)
