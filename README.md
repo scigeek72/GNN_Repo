@@ -14,6 +14,7 @@ Contains reference papers and other info related to Graph Neural Network
 - [Graph Attention Networks](https://arxiv.org/abs/1710.10903v3) 
 - [NF-GNN:Network Flow Graph for Malware Detection and classification](https://arxiv.org/pdf/2103.03939.pdf)
   - On computer networks
+- [Residual Gated Graph ConvNets](https://arxiv.org/abs/1711.07553)
 -    
 
 # Books and Book Chapters
