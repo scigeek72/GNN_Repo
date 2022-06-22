@@ -11,6 +11,7 @@ Contains reference papers and other info related to Graph Neural Network
 - [E-GraphSAGE: A Graph Neural Networks based Intrusion Detection System for IoT](https://arxiv.org/abs/2103.16329) 
   - On computer networks
 - [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)  
+- [Graph Attention Networks](https://arxiv.org/abs/1710.10903v3) 
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
