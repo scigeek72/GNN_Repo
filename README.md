@@ -19,6 +19,8 @@ Contains reference papers and other info related to Graph Neural Network
 - [Crystal Graph Convolutional Neural Networks for an Accurate and
 Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.10324.pdf)
   - Incorporates *EDGE-features* in the model
+- [Edge Attention based Multi-relational Graph Convolutional Networks](https://arxiv.org/pdf/1802.04944v1.pdf) 
+  - An extension of the Graph Attention Network (see blog: Graph attention network for more comments)
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
