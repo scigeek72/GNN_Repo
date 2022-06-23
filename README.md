@@ -15,7 +15,9 @@ Contains reference papers and other info related to Graph Neural Network
 - [NF-GNN:Network Flow Graph for Malware Detection and classification](https://arxiv.org/pdf/2103.03939.pdf)
   - On computer networks
 - [Residual Gated Graph ConvNets](https://arxiv.org/abs/1711.07553)
--    
+- [Crystal Graph Convolutional Neural Networks for an Accurate and
+Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.10324.pdf)
+  - Incorporates *EDGE-features* in the model
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
