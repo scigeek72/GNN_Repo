@@ -27,7 +27,7 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 - **Book Chapter** [Graph Neural Networks in Anomaly Detection](https://graph-neural-networks.github.io/static/file/chapter26.pdf) by Shen Wang, Philip S. Yu
 
 # Courses, Tutorials and Blog posts
-- [CS224W:Machine Learing with Graphs](https://web.stanford.edu/class/cs224w/)
+- [CS224W:Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
 - [Pytorch Geometric Module](https://pytorch-geometric.readthedocs.io/en/latest/notes/introduction.html)
   - Contains a good assemblage of links to tutorials and blogs. Particularly look at these two [Colab Notebooks and Video Tutorials](https://pytorch-geometric.readthedocs.io/en/latest/notes/colabs.html) and [External Resources](https://pytorch-geometric.readthedocs.io/en/latest/notes/resources.html) 
 - **Blog: [A gentle introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/#other-types-of-graphs-multigraphs-hypergraphs-hypernodes)**
@@ -42,3 +42,4 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 -  **Youtube: [Geometric Deep Learning on Graphs](https://www.youtube.com/watch?v=b187J4ndZWY&list=WL&index=92&t=20s)** by Michael Bronstein
 -  **Youtube: [Intro to GNN](https://www.youtube.com/watch?v=8owQBFAHw7E)** by Petar Veličković 
 -  **Youtube: [Intro to GNN: Model and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0)** by Microsoft Research  
+  -  Not very informative  
