@@ -38,7 +38,7 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 
 # Related Videos
 - **Youtube: [How to use edge-features in GNN](https://www.youtube.com/watch?v=mdWQYYapvR8)**
-  - Nice visualization and summary of the important message passing concepts that incorporate *multi-dimensional Edge features* from various papers (including pytorch moudles and how to incorporate edge-features/edge-attributes into GNN code)
+  - Nice visualization and summary of the important message passing concepts that incorporate *multi-dimensional Edge features* from various papers (including pytorch modules and how to incorporate edge-features/edge-attributes into GNN code)
 -  **Youtube: [Geometric Deep Learning on Graphs](https://www.youtube.com/watch?v=b187J4ndZWY&list=WL&index=92&t=20s)** by Michael Bronstein
 -  **Youtube: [Intro to GNN](https://www.youtube.com/watch?v=8owQBFAHw7E)** by Petar Veličković 
 -  **Youtube: [Intro to GNN: Model and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0)** by Microsoft Research  
