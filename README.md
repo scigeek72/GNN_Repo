@@ -14,6 +14,7 @@ Contains reference papers and other info related to Graph Neural Network
 - [Graph Attention Networks](https://arxiv.org/abs/1710.10903v3) 
 - [NF-GNN:Network Flow Graph for Malware Detection and classification](https://arxiv.org/pdf/2103.03939.pdf)
   - On computer networks
+  - Incorporates *Edge-features* in the model
 - [Residual Gated Graph ConvNets](https://arxiv.org/abs/1711.07553)
 - [Crystal Graph Convolutional Neural Networks for an Accurate and
 Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.10324.pdf)
@@ -23,14 +24,14 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
 - [Graph Neural Networks: Foundation, Frontiers and Applications](https://graph-neural-networks.github.io/#tab-part3)
   - All the chapters are available (including on Anomaly detection which I am listing below seperately) written some of the leading researchers  in the field
-- **Book Chapter**[Graph Neural Networks in Anomaly Detection](https://graph-neural-networks.github.io/static/file/chapter26.pdf) by Shen Wang, Philip S. Yu
+- **Book Chapter** [Graph Neural Networks in Anomaly Detection](https://graph-neural-networks.github.io/static/file/chapter26.pdf) by Shen Wang, Philip S. Yu
 
 # Courses, Tutorials and Blog posts
 - [CS224W:Machine Learing with Graphs](https://web.stanford.edu/class/cs224w/)
 - [Pytorch Geometric Module](https://pytorch-geometric.readthedocs.io/en/latest/notes/introduction.html)
   - Contains a good assemblage of links to tutorials and blogs. Particularly look at these two [Colab Notebooks and Video Tutorials](https://pytorch-geometric.readthedocs.io/en/latest/notes/colabs.html) and [External Resources](https://pytorch-geometric.readthedocs.io/en/latest/notes/resources.html) 
 - **Blog: [A gentle introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/#other-types-of-graphs-multigraphs-hypergraphs-hypernodes)**
-- **Blog: [Understanding Graph Neural Networks: by Irhum Safkat](https://irhum.pubpub.org/pub/gnn/release/4)** 
+- **Blog: [Understanding Graph Neural Networks](https://irhum.pubpub.org/pub/gnn/release/4)** by Irhum Safkat
   - Nice introductory explanation
 - **Blog: [Graph Attention Networks](https://petar-v.com/GAT/)** by Petar Veličković
 - **Blog: [Graph Convolutional Networks](https://tkipf.github.io/graph-convolutional-networks/)** by Thomas Kipf
