@@ -7,7 +7,7 @@ Contains reference papers and other info related to Graph Neural Network
   - Consider Message Passing using *edge-features*
 - [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261) by . Battaglia et.al
   - Consider Message passing using *edge-features*
-- [Incorporate Edge and Node Features in Graph Neural Networks](http://proceedings.mlr.press/v129/yang20a/yang20a.pdf) by Yang, Li (2020)
+- [NENN: Incorporate Edge and Node Features in Graph Neural Networks](http://proceedings.mlr.press/v129/yang20a/yang20a.pdf) by Yang, Li (2020)
 - [Principal Neighborhood Aggregation for graph nets](https://docs.google.com/viewer?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2004.05718.pdf)
 - **Survey** [A comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
 - [DeepWalk: Online Learning of Social Representation](https://arxiv.org/pdf/1403.6652.pdf)
