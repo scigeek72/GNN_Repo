@@ -3,7 +3,7 @@ Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
 - [Exploiting Edge features in Graph Neural Networks](https://arxiv.org/pdf/1809.02709.pdf)
-- [Neural Message Passing in Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)
+- [Neural Message Passing in Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) by Gilmer et.al
   - Consider Message Passing using *edge-features*
 - [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261) by . Battaglia et.al
   - Consider Message passing using *edge-features*
