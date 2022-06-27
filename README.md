@@ -4,6 +4,9 @@ Contains reference papers and other info related to Graph Neural Network
 # Papers (in random order)
 - [Exploiting Edge features in Graph Neural Networks](https://arxiv.org/pdf/1809.02709.pdf)
 - [Neural Message Passing in Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)
+  - Consider Message Passing using *edge-features*
+- [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261) by . Battaglia et.al
+  - Consider Message passing using *edge-features*
 - [Principal Neighborhood Aggregation for graph nets](https://docs.google.com/viewer?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2004.05718.pdf)
 - [A comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
 - [DeepWalk: Online Learning of Social Representation](https://arxiv.org/pdf/1403.6652.pdf)
@@ -21,6 +24,8 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
   - Incorporates *EDGE-features* in the model
 - [Edge Attention based Multi-relational Graph Convolutional Networks](https://arxiv.org/pdf/1802.04944v1.pdf) 
   - An extension of the Graph Attention Network (see blog: Graph attention network for more comments)
+- [How powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) by Leskovec, Jagelka
+  - assess different aggregation functions (excellent review on [Openreview.net](https://openreview.net/forum?id=ryGs6iA5Km))
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
@@ -33,6 +38,9 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 - [Pytorch Geometric Module](https://pytorch-geometric.readthedocs.io/en/latest/notes/introduction.html)
   - Contains a good assemblage of links to tutorials and blogs. Particularly look at these two [Colab Notebooks and Video Tutorials](https://pytorch-geometric.readthedocs.io/en/latest/notes/colabs.html) and [External Resources](https://pytorch-geometric.readthedocs.io/en/latest/notes/resources.html) 
 - **Blog: [A gentle introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/#other-types-of-graphs-multigraphs-hypergraphs-hypernodes)**
+  - Nice introductory explanation with pointers to actual papers
+- **Blog: [Understanding Convolution on Graphs](https://distill.pub/2021/understanding-gnns/)** by Ameya Daigavane, Balaraman Ravindran, Gaurav Aggarwal
+  - Nice explanation (how Polynomial filters (Graph Laplacian) are translated into *Message passing* concepts*. Also have important pointers to papers
 - **Blog: [Understanding Graph Neural Networks](https://irhum.pubpub.org/pub/gnn/release/4)** by Irhum Safkat
   - Nice introductory explanation
 - **Blog: [Graph Attention Networks](https://petar-v.com/GAT/)** by Petar Veličković
