@@ -12,6 +12,9 @@ Contains reference papers and other info related to Graph Neural Network
 - **Survey** [A comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
 - [DeepWalk: Online Learning of Social Representation](https://arxiv.org/pdf/1403.6652.pdf)
 - [Node2vec: Scalable Feature Learning For Networks](https://arxiv.org/abs/1607.00653)
+- [GraphSAGE: Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) by Hamilton, Ying, Leskovec 
+  - Reviews are good. **Inductive and not transductive** can work on previously unseen nodes.
+  - No edge-features were considered for Node embedding (so, look at the following paper in this list)
 - [E-GraphSAGE: A Graph Neural Networks based Intrusion Detection System for IoT](https://arxiv.org/abs/2103.16329) 
   - On computer networks
 - **Survey** [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)  
