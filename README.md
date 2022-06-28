@@ -62,8 +62,10 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 -  **Youtube: [Intro to GNN: Model and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0)** by Microsoft Research (Not very informative)  
 
 # Python Libraries to work with Graphs
+- [DGL](https://github.com/dmlc/dgl) 
+  - Can be used with Pytorch, Tensorflow and MaxNet. Try this First
 - [GraphNets](https://github.com/deepmind/graph_nets) 
-  - From DeepMind. Tensorflow based high quality modules (try to use this in stead of Stellar Graphs). 
+  - From DeepMind. Tensorflow based high quality modules (try to use this instead of Stellar Graphs). 
 - [Stellar Graphs](https://stellargraph.readthedocs.io/en/stable/README.html)
   - Tensorflow + Keras based. 
 - [Pytorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html)
