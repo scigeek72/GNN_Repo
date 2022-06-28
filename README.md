@@ -2,6 +2,7 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [Identity Aware Graph Neural Nets](https://arxiv.org/pdf/2101.10320.pdf) by You, Gomes-Selman, Ying, Leskovec (2021)
 - [Design Space for Graph Neural Networks](https://arxiv.org/pdf/2011.08843.pdf) by You, Ying, Leskovec (2021)
 - [Learning Structural Node Embeddings via Diffusion Wavelets](https://arxiv.org/pdf/1710.10321.pdf) by Donnat, Zitnik, Hallac, Leskovec(2018) 
   - Node embeddings that also incorporate *structural* properties of the nodes (such as hubs). Very Interesting but *may* require more work.
@@ -61,7 +62,16 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 -  **Youtube: [Intro to GNN: Model and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0)** by Microsoft Research (Not very informative)  
 
 # Python Libraries to work with Graphs
+- [GraphNets](https://github.com/deepmind/graph_nets) 
+  - From DeepMind. Tensorflow based high quality modules (try to use this in stead of Stellar Graphs). 
 - [Stellar Graphs](https://stellargraph.readthedocs.io/en/stable/README.html)
   - Tensorflow + Keras based. 
 - [Pytorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html)
   - Pytorch based  
+
+
+# Other Resources
+- [DeepSnap](https://snap.stanford.edu/deepsnap/)
+- [GraphGym](https://github.com/snap-stanford/GraphGym) and [PyG](https://www.pyg.org/)
+  - Based on Pytorche. **PyG** is a more tightly integrated version of **GraphGym** 
+- [SNAP: Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
