@@ -2,6 +2,8 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [Learning Structural Node Embeddings via Diffusion Wavelets](https://arxiv.org/pdf/1710.10321.pdf) by Donnat, Zitnik, Hallac, Leskovec(2018) 
+  - Node embeddings that also incorporate *structural* properties of the nodes (such as hubs). Very Interesting but *may* require more work.
 - [Exploiting Edge features in Graph Neural Networks](https://arxiv.org/pdf/1809.02709.pdf)
 - [Neural Message Passing in Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) by Gilmer et.al
   - Consider Message Passing using *edge-features*
