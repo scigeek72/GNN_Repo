@@ -2,7 +2,9 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
-- [Identity Aware Graph Neural Nets](https://arxiv.org/pdf/2101.10320.pdf) by You, Gomes-Selman, Ying, Leskovec (2021)
+- [Identity Aware Graph Neural Nets (ID-GNN)](https://arxiv.org/pdf/2101.10320.pdf) by You, Gomes-Selman, Ying, Leskovec (2021)
+  - More general framework than GNN (see **Lecture 16** in CS224W course) and perform better for node/edge/graph level tasks. 
+  - Can be implemented with PyG/DGL etc. But more complicated. So first start out with the original GNN.
 - [Design Space for Graph Neural Networks](https://arxiv.org/pdf/2011.08843.pdf) by You, Ying, Leskovec (2021)
 - [Learning Structural Node Embeddings via Diffusion Wavelets](https://arxiv.org/pdf/1710.10321.pdf) by Donnat, Zitnik, Hallac, Leskovec(2018) 
   - Node embeddings that also incorporate *structural* properties of the nodes (such as hubs). Very Interesting but *may* require more work.
