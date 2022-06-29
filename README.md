@@ -41,6 +41,7 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
   - An extension of the Graph Attention Network (see blog: Graph attention network for more comments)
 - [How powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) by Leskovec, Jagelka
   - assess different aggregation functions (excellent review on [Openreview.net](https://openreview.net/forum?id=ryGs6iA5Km))
+- [UBER-GNN: A User-Based Embeddings Recommendation based on Graph Neural Networks (Uber Eats Recommender System)](https://arxiv.org/abs/2008.02546) by Huang, Bi, Wu, Wang, Xiao (2020)
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
@@ -60,6 +61,8 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
   - Nice introductory explanation
 - **Blog: [Graph Attention Networks](https://petar-v.com/GAT/)** by Petar Veličković
 - **Blog: [Graph Convolutional Networks](https://tkipf.github.io/graph-convolutional-networks/)** by Thomas Kipf
+- **Blog: [Food Discovery with Uber Eats: Using Graph Learning to Power Recommendations](https://eng.uber.com/uber-eats-graph-learning/)** by Jain, Liu, Sarda, Molino (2019)
+  - For the actual paper, see the paper section above
 
 # Related Videos
 - **Youtube: [How to use edge-features in GNN](https://www.youtube.com/watch?v=mdWQYYapvR8)**
