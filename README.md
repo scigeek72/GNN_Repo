@@ -2,9 +2,12 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [Graph Convolutional Neural Nets for Web-Scale Recommender System (PinSage)](https://arxiv.org/pdf/1806.01973.pdf) by Ying, He, Chen, Eksombatchai, Hamilton, Leskovec (2018)
+  - PinSage is implemented and productionized at Pinterest. Graph Size is 3 billion Nodes and 18 billion Edges 
+  - This paper has number of improvements on traditional GCN and GraphSage
 - [Identity Aware Graph Neural Nets (ID-GNN)](https://arxiv.org/pdf/2101.10320.pdf) by You, Gomes-Selman, Ying, Leskovec (2021)
   - More general framework than GNN (see **Lecture 16** in CS224W course) and perform better for node/edge/graph level tasks. 
-  - Can be implemented with PyG/DGL etc. But more complicated. So first start out with the original GNN.
+  - Can be implemented with PyG/DGL etc. But more complicated. So, first start out with the original GNN.
 - [Design Space for Graph Neural Networks](https://arxiv.org/pdf/2011.08843.pdf) by You, Ying, Leskovec (2021)
 - [Learning Structural Node Embeddings via Diffusion Wavelets](https://arxiv.org/pdf/1710.10321.pdf) by Donnat, Zitnik, Hallac, Leskovec(2018) 
   - Node embeddings that also incorporate *structural* properties of the nodes (such as hubs). Very Interesting but *may* require more work.
@@ -25,6 +28,8 @@ Contains reference papers and other info related to Graph Neural Network
   - On computer networks
 - **Survey** [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)  
 - [Graph Attention Networks](https://arxiv.org/abs/1710.10903v3) 
+- [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) by Kipf, Welling (2017)
+- [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375) by Defferrard, Bresson, Vandergheynst (2017)
 - [NF-GNN:Network Flow Graph for Malware Detection and classification](https://arxiv.org/pdf/2103.03939.pdf)
   - On computer networks
   - Incorporates *Edge-features* in the model
