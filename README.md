@@ -17,15 +17,19 @@ Contains reference papers and other info related to Graph Neural Network
 - [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/abs/1806.01261) by . Battaglia et.al
   - Consider Message passing using *edge-features*
 - [NENN: Incorporate Edge and Node Features in Graph Neural Networks](http://proceedings.mlr.press/v129/yang20a/yang20a.pdf) by Yang, Li (2020)
+  - This is attention based algorithm. But they seems to be doing the right updates as opposed to E-GraphSAGE. Can we incorporate this idea in the way GraphSAGE does it but instead now we incorporates (and updates) edge-features as well?????
 - [Principal Neighborhood Aggregation for graph nets](https://docs.google.com/viewer?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2004.05718.pdf)
 - **Survey** [A comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
 - [DeepWalk: Online Learning of Social Representation](https://arxiv.org/pdf/1403.6652.pdf)
 - [Node2vec: Scalable Feature Learning For Networks](https://arxiv.org/abs/1607.00653)
 - [GraphSAGE: Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) by Hamilton, Ying, Leskovec 
   - Reviews are good. **Inductive and not transductive** can work on previously unseen nodes.
-  - No edge-features were considered for Node embedding (so, look at the following paper in this list). Use this algorithm. It can be trained in uspervised mode.
+  - No edge-features were considered for Node embedding (so, look at the following paper in this list). 
+  - **Use this algorithm. It can be trained in uspervised mode.**
 - [E-GraphSAGE: A Graph Neural Networks based Intrusion Detection System for IoT](https://arxiv.org/abs/2103.16329) 
   - On computer networks
+  - There **seems** to be a fundamental problem in the updates of nodes features using edge features (line 5 in the algorithm). It talks about edge-features from the previous layer (k-1), but never updates edge-features. 
+  - DON'T USE IT AS IS. MODIFY IT. 
 - **Survey** [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)  
 - [Graph Attention Networks](https://arxiv.org/abs/1710.10903v3) 
 - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) by Kipf, Welling (2017)
