@@ -2,6 +2,8 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [ETA prediction using Graph Neural Networks in Google Maps](https://dl.acm.org/doi/epdf/10.1145/3459637.3481916) 
+  - Very dense paper with a lot of innovations, includes *edge-features*. 
 - [Graph Convolutional Neural Nets for Web-Scale Recommender System (PinSage)](https://arxiv.org/pdf/1806.01973.pdf) by Ying, He, Chen, Eksombatchai, Hamilton, Leskovec (2018)
   - PinSage is implemented and productionized at Pinterest. Graph Size is 3 billion Nodes and 18 billion Edges 
   - This paper has number of improvements on traditional GCN and GraphSage
@@ -19,7 +21,7 @@ Contains reference papers and other info related to Graph Neural Network
 - [NENN: Incorporate Edge and Node Features in Graph Neural Networks](http://proceedings.mlr.press/v129/yang20a/yang20a.pdf) by Yang, Li (2020)
   - This is attention based algorithm. But they seems to be doing the right updates as opposed to E-GraphSAGE. Can we incorporate this idea in the way GraphSAGE does it but instead now we incorporates (and updates) edge-features as well?????
 - [Principal Neighborhood Aggregation for graph nets](https://docs.google.com/viewer?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2004.05718.pdf)
-- **Survey** [A comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
+
 - [DeepWalk: Online Learning of Social Representation](https://arxiv.org/pdf/1403.6652.pdf)
 - [Node2vec: Scalable Feature Learning For Networks](https://arxiv.org/abs/1607.00653)
 - [GraphSAGE: Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) by Hamilton, Ying, Leskovec 
@@ -28,9 +30,9 @@ Contains reference papers and other info related to Graph Neural Network
   - **Use this algorithm. It can be trained in uspervised mode.**
 - [E-GraphSAGE: A Graph Neural Networks based Intrusion Detection System for IoT](https://arxiv.org/abs/2103.16329) 
   - On computer networks
-  - There **seems** to be a fundamental problem in the updates of nodes features using edge features (line 5 in the algorithm). It talks about edge-features from the previous layer (k-1), but never updates edge-features. 
+  - There **seems** to be a fundamental problem in the updates of nodes features using edge features (line 5 in the algorithm). It talks about edge-features from the previous layer (k-1), but never updates edge-features.
   - DON'T USE IT AS IS. MODIFY IT. 
-- **Survey** [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)  
+  
 - [Graph Attention Networks](https://arxiv.org/abs/1710.10903v3) 
 - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) by Kipf, Welling (2017)
 - [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375) by Defferrard, Bresson, Vandergheynst (2017)
@@ -41,12 +43,17 @@ Contains reference papers and other info related to Graph Neural Network
 - [Crystal Graph Convolutional Neural Networks for an Accurate and
 Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.10324.pdf)
   - Incorporates *EDGE-features* in the model
+  - [Github repo (with Pytorch)](https://github.com/txie-93/cgcnn/tree/f42ab233c4ee0c416879d6bc2d22a264418413ad)
 - [Edge Attention based Multi-relational Graph Convolutional Networks](https://arxiv.org/pdf/1802.04944v1.pdf) 
   - An extension of the Graph Attention Network (see blog: Graph attention network for more comments)
 - [How powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) by Leskovec, Jagelka
   - assess different aggregation functions (excellent review on [Openreview.net](https://openreview.net/forum?id=ryGs6iA5Km))
 - [UBER-GNN: A User-Based Embeddings Recommendation based on Graph Neural Networks (Uber Eats Recommender System)](https://arxiv.org/abs/2008.02546) by Huang, Bi, Wu, Wang, Xiao (2020)
 - [Variational Graph Auto-encoders](https://arxiv.org/pdf/1611.07308.pdf) by Kipf, Welling
+
+## Survey Papers
+- [A comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf)
+- [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
