@@ -23,7 +23,7 @@ Contains reference papers and other info related to Graph Neural Network
 - [Node2vec: Scalable Feature Learning For Networks](https://arxiv.org/abs/1607.00653)
 - [GraphSAGE: Inductive Representation Learning on Large Graphs](https://arxiv.org/abs/1706.02216) by Hamilton, Ying, Leskovec 
   - Reviews are good. **Inductive and not transductive** can work on previously unseen nodes.
-  - No edge-features were considered for Node embedding (so, look at the following paper in this list)
+  - No edge-features were considered for Node embedding (so, look at the following paper in this list). Use this algorithm. It can be trained in uspervised mode.
 - [E-GraphSAGE: A Graph Neural Networks based Intrusion Detection System for IoT](https://arxiv.org/abs/2103.16329) 
   - On computer networks
 - **Survey** [Graph Neural Networks: A review of methods and application](https://arxiv.org/abs/1812.08434)  
@@ -42,6 +42,7 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 - [How powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) by Leskovec, Jagelka
   - assess different aggregation functions (excellent review on [Openreview.net](https://openreview.net/forum?id=ryGs6iA5Km))
 - [UBER-GNN: A User-Based Embeddings Recommendation based on Graph Neural Networks (Uber Eats Recommender System)](https://arxiv.org/abs/2008.02546) by Huang, Bi, Wu, Wang, Xiao (2020)
+- [Variational Graph Auto-encoders](https://arxiv.org/pdf/1611.07308.pdf) by Kipf, Welling
 
 # Books and Book Chapters
 - [Graph Reprenstation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) by William Hamilton 
