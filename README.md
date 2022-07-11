@@ -92,6 +92,9 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
   - Tensorflow + Keras based. 
 - [Pytorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html)
   - Pytorch based  
+## How to form a graph in Python?
+- **Blog** [Working With Large Internal Link Graphs in Python](https://www.briggsby.com/large-internal-link-graphs-in-python) by Justin
+- [Networkx Documentation](https://networkx.org/documentation/networkx-1.10/reference/readwrite.edgelist.html)
 
 
 # Other Resources
