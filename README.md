@@ -61,6 +61,7 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
   - All the chapters are available (including on Anomaly detection which I am listing below seperately) written some of the leading researchers  in the field
 - **Book Chapter** [Graph Neural Networks in Anomaly Detection](https://graph-neural-networks.github.io/static/file/chapter26.pdf) by Shen Wang, Philip S. Yu
 - [Geometric Deep Learning](https://arxiv.org/pdf/2104.13478.pdf) by Bronstein, Bruna, Cohen, and Veličković4
+  - Note: Very theoratical and mathy.   
 
 # Courses, Tutorials and Blog posts
 - [CS224W:Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
