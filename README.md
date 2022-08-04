@@ -4,7 +4,7 @@ Contains reference papers and other info related to Graph Neural Network
 # Papers (in random order)
 - [Strategies for Pre-Training Graph Neural Networks](https://arxiv.org/pdf/1905.12265.pdf) by Hu, Liu, Gomes, Zitnik, Liang, Pande, and Leskovec
   - Interesting paper on pretraining strategies for performance enhancement
-  - Has implementation in PyG (look [here](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GINEConv) 
+  - Has implementation in PyG (look [here](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GINEConv))  
 - [ETA prediction using Graph Neural Networks in Google Maps](https://dl.acm.org/doi/epdf/10.1145/3459637.3481916) 
   - Very dense paper with a lot of innovations, includes *edge-features*. 
 - [Graph Convolutional Neural Nets for Web-Scale Recommender System (PinSage)](https://arxiv.org/pdf/1806.01973.pdf) by Ying, He, Chen, Eksombatchai, Hamilton, Leskovec (2018)
