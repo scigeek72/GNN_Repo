@@ -2,6 +2,7 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [Graph Convolutional Networks for Graph with Multi-dimensionally weighted edges](https://cims.nyu.edu/~chenzh/files/GCN_with_edge_weights.pdf) by Chen (July 20, 2020)
 - [Strategies for Pre-Training Graph Neural Networks](https://arxiv.org/pdf/1905.12265.pdf) by Hu, Liu, Gomes, Zitnik, Liang, Pande, and Leskovec
   - Interesting paper on pretraining strategies for performance enhancement
   - Has implementation in PyG (look [here](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GINEConv))  
