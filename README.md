@@ -90,6 +90,8 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 -  **Youtube: [Intro to GNN: Model and Applications](https://www.youtube.com/watch?v=zCEYiCxrL_0)** by Microsoft Research (Not very informative)  
 
 # Python Libraries to work with Graphs
+- [PyGOD](https://github.com/pygod-team/pygod) 
+  - PyGOD is based on Pytorch and pytorch_geometric and used for `graph outlier detection`(`anomaly detection`)
 - [DGL Documentation](https://docs.dgl.ai/index.html) and [DGL code base](https://github.com/dmlc/dgl)
   - Can be used with Pytorch, Tensorflow and MaxNet. Try this First
 - [GraphNets](https://github.com/deepmind/graph_nets) 
