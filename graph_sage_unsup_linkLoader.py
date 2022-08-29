@@ -5,7 +5,7 @@ Created on Thu Aug 25 15:17:35 2022
 
 @author: tridibdutta
 It's not my code. Copied from pytorch_geometirc github repo
-Only making some changes to the loader
+Only making some changes to the train_loader
 Using LinkNeighborLoader instead of NeighborSampler (which is being depricated) as per suggestion of @rusty1 (Mathew Fay)
 """
 import os.path as osp
@@ -29,26 +29,6 @@ path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data', dataset)
 dataset = Planetoid(path, dataset, transform=T.NormalizeFeatures())
 data = dataset[0]
 
-
-class NeighborSampler(RawNeighborSampler):
-    def sample(self, batch):
-        batch = torch.tensor(batch)
-        row, col, _ = self.adj_t.coo()
-
-        # For each node in `batch`, we sample a direct neighbor (as positive
-        # example) and a random node (as negative example):
-        pos_batch = random_walk(row, col, batch, walk_length=1,
-                                coalesced=False)[:, 1]
-
-        neg_batch = torch.randint(0, self.adj_t.size(1), (batch.numel(), ),
-                                  dtype=torch.long)
-
-        batch = torch.cat([batch, pos_batch, neg_batch], dim=0)
-        return super().sample(batch)
-
-
-# train_loader = NeighborSampler(data.edge_index, sizes=[10, 10], batch_size=256,
-#                                shuffle=True, num_nodes=data.num_nodes)
 
 train_loader = LinkNeighborLoader(data, batch_size = 256, shuffle=True,
                                   neg_sampling_ratio=1.0, num_neighbors=[10,10])
@@ -95,23 +75,15 @@ def train():
 
     total_loss = 0
     for loader in train_loader:
-        # `adjs` holds a list of `(edge_index, e_id, size)` tuples.
-        #adjs = [adj.to(device) for adj in adjs]
+
         optimizer.zero_grad()
 
         h = model(loader)
-        #out, pos_out, neg_out = out.split(out.size(0) // 3, dim=0)
-        # out = h[loader.edge_label_index[0][loader.edge_label == 1]]
-        # pos_out = h[loader.edge_label_index[1][loader.edge_label == 1]]
-        # neg_out = h[loader.edge_label_index[1][loader.edge_label == 0]]
         src_nodes = loader.edge_label_index[0]
         dst_nodes = loader.edge_label_index[1]
         out = h[src_nodes] * h[dst_nodes]
 
         loss = F.binary_cross_entropy_with_logits(out.sum(dim=-1), loader.edge_label)
-        # pos_loss = F.logsigmoid((out * pos_out).sum(-1)).mean()
-        # neg_loss = F.logsigmoid(-(out * neg_out).sum(-1)).mean()
-        # loss = -pos_loss - neg_loss
         loss.backward()
         optimizer.step()
 
