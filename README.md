@@ -110,3 +110,7 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 - [GraphGym](https://github.com/snap-stanford/GraphGym) and [PyG](https://www.pyg.org/)
   - Based on Pytorche. **PyG** is a more tightly integrated version of **GraphGym** 
 - [SNAP: Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
+
+# CyberSecurity Datasets
+- [CyberSecurity Datasets](http://ahlashkari.com/Datasets.asp) 
+  - Look at CICandMal-2017 dataset (and other similar datasets)
