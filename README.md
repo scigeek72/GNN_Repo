@@ -2,6 +2,7 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [Benchmarking Node Outlier Detection on Graphs](https://arxiv.org/pdf/2206.10071.pdf) by Liu et.al
 - [Graph Representation Learing in Biomedicine](https://arxiv.org/pdf/2104.04883.pdf) by Li, Huang, Zitnik
 - [Modeling Relational Data with Graph Convolutional Network](https://arxiv.org/pdf/1703.06103.pdf) By Schlichtkrull, Kipf, Welling, Bloom, Titov, van der Berg
 - [Fast Graph Representation Learning with PyTorch-Geometric](https://docs.google.com/viewer?url=https%3A%2F%2Frlgm.github.io%2Fpapers%2F2.pdf) by Mathew Fay et.al
