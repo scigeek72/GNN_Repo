@@ -2,6 +2,8 @@
 Contains reference papers and other info related to Graph Neural Network
 
 # Papers (in random order)
+- [Graph Representation Learing in Biomedicine](https://arxiv.org/pdf/2104.04883.pdf) by Li, Huang, Zitnik
+- [Modeling Relational Data with Graph Convolutional Network](https://arxiv.org/pdf/1703.06103.pdf) By Schlichtkrull, Kipf, Welling, Bloom, Titov, van der Berg
 - [Fast Graph Representation Learning with PyTorch-Geometric](https://docs.google.com/viewer?url=https%3A%2F%2Frlgm.github.io%2Fpapers%2F2.pdf) by Mathew Fay et.al
 - [Graph Convolutional Networks for Graph with Multi-dimensionally weighted edges](https://cims.nyu.edu/~chenzh/files/GCN_with_edge_weights.pdf) by Chen (July 20, 2020)
 - [Strategies for Pre-Training Graph Neural Networks](https://arxiv.org/pdf/1905.12265.pdf) by Hu, Liu, Gomes, Zitnik, Liang, Pande, and Leskovec
@@ -115,3 +117,4 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 # CyberSecurity Datasets
 - [CyberSecurity Datasets](http://ahlashkari.com/Datasets.asp) 
   - Look at CICandMal-2017 dataset (and other similar datasets)
+- [Graph Datasets](https://paperswithcode.com/datasets?mod=graphs&task=graph-embedding&page=1)
