@@ -85,6 +85,8 @@ Interpretable Prediction of Material Properties](https://arxiv.org/pdf/1710.1032
 - **Blog: [Graph Convolutional Networks](https://tkipf.github.io/graph-convolutional-networks/)** by Thomas Kipf
 - **Blog: [Food Discovery with Uber Eats: Using Graph Learning to Power Recommendations](https://eng.uber.com/uber-eats-graph-learning/)** by Jain, Liu, Sarda, Molino (2019)
   - For the actual paper, see the paper section above
+- **Blog: [Best GNN architectures](https://theaisummer.com/gnn-architectures/)** by Sergios Karagiannakos
+  - Note: Its a nice little introduction. Moreover, it has a good set of resources for other ML stuff like **Computer Vision**. Check it out.
 
 # Related Videos
 - **Youtube: [How to use edge-features in GNN](https://www.youtube.com/watch?v=mdWQYYapvR8)**
